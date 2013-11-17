@@ -1,4 +1,4 @@
-angularjs-requirejs-skeleton
+angularjs-requirejs-seed-project
 ============================
 
 A skeleton project for AngularJS application quick start with RequireJS integrated
