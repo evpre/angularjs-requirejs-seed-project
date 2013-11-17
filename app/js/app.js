@@ -1,6 +1,7 @@
 'use strict';
 
-define(["angular", "angular-resource", "angular-route","js/controllers", "js/filters"
+define(["angular", "angular-resource", "angular-route","js/controllers", "js/filters",
+    "controllers/MoviesListPresenter"
 ], function(angular){
     /* App Module */
     var moviesApp = angular.module('moviesApp', [

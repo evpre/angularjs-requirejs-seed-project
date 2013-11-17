@@ -12,7 +12,9 @@ requirejs.config({
         angular: "lib/angular/angular",
         "angular-resource": "lib/angular/angular-resource",
         "angular-route": "lib/angular/angular-route",
-        controllers: "js/controllers"
+        controllers: "js/controllers/",
+        services: "js/services/",
+        filters: "js/filters/"
         //models: "lib/models",
         //views: "lib/views"
     },
@@ -29,7 +31,7 @@ requirejs.config({
         },
         "app/app": {
             deps: [
-                "angular",
+                "angular"
             ]
         }
     }
