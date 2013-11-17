@@ -3,7 +3,7 @@
  */
 
 requirejs.config({
-    //By default load any module IDs from js/lib
+
     baseUrl: './',
 
     paths: {
@@ -28,11 +28,6 @@ requirejs.config({
         },
         "angular-route": {
             deps: ["angular"]
-        },
-        "app/app": {
-            deps: [
-                "angular"
-            ]
         }
     }
 });
