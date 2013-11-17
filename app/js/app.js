@@ -23,6 +23,6 @@ define(["angular", "angular-resource", "angular-route","js/controllers", "js/fil
             redirectTo: '/movies'
           });
       }]);
-
+    angular.bootstrap(document, ['moviesApp']);
     return moviesApp;
 })
