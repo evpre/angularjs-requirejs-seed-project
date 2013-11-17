@@ -24,6 +24,5 @@ define(["angular", "angular-resource", "angular-route","js/controllers", "js/fil
           });
       }]);
 
-    angular.bootstrap(document, ['moviesApp']);
     return moviesApp;
 })

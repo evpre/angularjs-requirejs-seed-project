@@ -2,7 +2,7 @@
 
 define(["angular"], function(angular){
 
-    /* Filters */
+    /* Filters Module*/
     var filters = angular.module('filters', [])
 
         .filter('checkmark', function() {
